@@ -1,0 +1,17 @@
+.hr1 {
+    border: 0px;
+    border-radius: 10px;
+    height: 3px;
+    background-color: aliceblue;
+}
+fieldset {
+    padding: 10px;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: solid;
+}
+textarea {
+    border-radius: 5px;
+    border-color: blue;
+    border-style: solid;
+}

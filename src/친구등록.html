@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>친구 등록</title>
+    <link rel="stylesheet" href="친구 등록.css">
+</head>
+<body>
+    <h3>나의 친구 등록</h3>
+    <hr class="hr1">
+    <form action="ok.html" method="get">
+        <fieldset>
+            <legend>
+                <b>신상 정보</b>
+                <label>
+                    1. 이름 : <input type="text" placeholder="이름 입력"></label>
+                <br>
+                
+                2. 이메일 : <input type="text" placeholder="@gmail.com"></label>
+                <br>
+                
+                3. 휴대전화 번호 : <input type="tel" placeholder="ex)01012345678"></label><!-- tel 숫자만 가능-->
+                <br>
+            </legend>
+        </fieldset>
+        <fieldset>
+            <legend><b>기타 정보</b></legend>
+            1. 직업 : <select name="jobs"></select>
+                <option value="1" selected>학생</option>
+                <option value="2">직장인</option>
+                <option value="3">퇴직</option>
+            2. 성별 : <label ><input type="radio" name="gender" value="1">남자</label>
+                    <label ><input type="radio" name="gender" value="2">여자</label>
+                    <br>
+                    3. 취미<label ><input type="checkbox" value="1">독서</label>
+                    <label ><input type="checkbox" value="2">게임</label>
+                    <label ><input type="checkbox" value="3">영화감상</label>
+        </fieldset>
+        <h4>자기소개</h4>
+        <textarea cols="50" rows="10" placeholder="자기소개글을 써주세요" required></textarea>
+        <br>
+        <button type="button">
+            <input type="image" src="image/button.png" alt="제출 버튼" width="25px" height="25px">
+            
+        </button>
+        <button type="button">
+            <input type="reset" value="리셋">
+        </button>
+
+    </form>
+</body>
+</html>
